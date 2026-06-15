@@ -1,0 +1,118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 726b175f0a87a41bbad88ca424aeed44, type: 3}
+  m_Name: RedCosmosPrototypeConfig
+  m_EditorClassIdentifier: Assembly-CSharp::SpaceFlight2D.Game.Config.PrototypeGameConfig
+  <Rocket>k__BackingField:
+    Prefab: {fileID: 1890304300607299917, guid: 95a6b5593648d430587f54d875a9d24d, type: 3}
+    VisualSprite: {fileID: 0}
+    Speed: 4.5
+    HorizontalSpeed: 2.2
+    RotationSpeed: 120
+    MaxRotationAngle: 45
+    AutoStabilizeSpeed: 80
+    Size: {x: 0.8, y: 1.8}
+    Color: {r: 0.94, g: 0.96, b: 0.98, a: 1}
+  <Asteroids>k__BackingField:
+    Prefab: {fileID: 1390455175843081137, guid: ab2d4d1fd43ee46d291dc29b314cace6, type: 3}
+    VisualSprite: {fileID: 0}
+    InitialPoolSize: 18
+    SpawnIntervalMin: 1.1
+    SpawnIntervalMax: 1.4
+    SpawnXRange: {x: -3.3, y: 3.3}
+    SpawnOffsetY: 6
+    SpeedRange: {x: 2.6, y: 4.6}
+    RotationSpeedRange: {x: -110, y: 110}
+    Lifetime: 8
+    Small:
+      SizeRange: {x: 0.45, y: 0.65}
+      ScoreReward: 10
+      Color: {r: 0.76, g: 0.77, b: 0.81, a: 1}
+    Medium:
+      SizeRange: {x: 0.75, y: 1}
+      ScoreReward: 20
+      Color: {r: 0.66, g: 0.68, b: 0.74, a: 1}
+    Large:
+      SizeRange: {x: 1.1, y: 1.4}
+      ScoreReward: 35
+      Color: {r: 0.54, g: 0.58, b: 0.65, a: 1}
+  <Vfx>k__BackingField:
+    Enabled: 1
+    ScreenShakeEnabled: 1
+    AsteroidHitFlashEnabled: 1
+    CameraColorFlashEnabled: 0
+    AsteroidHitLifetime: 1.2
+    AsteroidHitScale: 1
+    RocketExplosionLifetime: 2
+    RocketExplosionScale: 1.4
+    LaunchBurstLifetime: 0.8
+    LaunchBurstScale: 1
+    SmallShakeDuration: 0.15
+    SmallShakeStrength: 0.08
+    SmallShakeVibrato: 8
+    BigShakeDuration: 0.35
+    BigShakeStrength: 0.2
+    BigShakeVibrato: 16
+    AsteroidHitFlashColor: {r: 1, g: 1, b: 1, a: 1}
+    AsteroidHitFlashDuration: 0.08
+    CameraFlashColor: {r: 1, g: 1, b: 1, a: 1}
+    CameraFlashAlpha: 0.18
+    CameraFlashDuration: 0.12
+    PrefabEffectPoolSize: 4
+  <Ui>k__BackingField:
+    Enabled: 1
+    ShowScore: 1
+    ShowControls: 1
+  <Presentation>k__BackingField:
+    BackgroundColor: {r: 0.24, g: 0.08, b: 0.12, a: 1}
+    CameraZoom: 5
+    PlatformColor: {r: 1, g: 0.8, b: 0.72, a: 1}
+    BackgroundPanelColor: {r: 0.34, g: 0.12, b: 0.14, a: 1}
+  <Recording>k__BackingField:
+    RecordingMode: 0
+    HideUiForRecording: 0
+    GameSpeedMultiplier: 1
+  <StartFlow>k__BackingField:
+    LaunchDelay: 0.15
+    LaunchAccelerationDuration: 0.45
+    LaunchPunchScale: 0.12
+    LaunchPunchDuration: 0.2
+  <Camera>k__BackingField:
+    OrthographicSize: 5
+    FollowSmoothness: 4
+    Offset: {x: 0, y: 1.4, z: -10}
+  <Background>k__BackingField:
+    ScrollingEnabled: 1
+    TopColor: {r: 0.22, g: 0.03, b: 0.08, a: 1}
+    BottomColor: {r: 0.08, g: 0.01, b: 0.04, a: 1}
+    StarTint: {r: 1, g: 1, b: 1, a: 1}
+    Size: {x: 7, y: 14}
+    FarStarsScrollSpeed: 0.4
+    MiddleStarsScrollSpeed: 0.8
+    NearStarsScrollSpeed: 1.3
+    FarStarsCount: 35
+    MiddleStarsCount: 25
+    NearStarsCount: 15
+  <LaunchFlow>k__BackingField:
+    FogStartHeight: 1.8
+    SpaceStartHeight: 6.4
+    TransitionDuration: 0.8
+    FogParticleInterval: 0.22
+    SkyTopColor: {r: 0.42, g: 0.72, b: 0.98, a: 1}
+    SkyBottomColor: {r: 0.82, g: 0.92, b: 1, a: 1}
+    FogTopColor: {r: 0.76, g: 0.84, b: 0.9, a: 1}
+    FogBottomColor: {r: 0.9, g: 0.93, b: 0.96, a: 1}
+    SpaceTopColor: {r: 0.02, g: 0.03, b: 0.08, a: 1}
+    SpaceBottomColor: {r: 0.08, g: 0.02, b: 0.12, a: 1}
+    CloudColor: {r: 1, g: 1, b: 1, a: 1}
+    FogColor: {r: 0.92, g: 0.94, b: 0.96, a: 1}
+    SpaceGlowColor: {r: 0.16, g: 0.22, b: 0.34, a: 0.8}

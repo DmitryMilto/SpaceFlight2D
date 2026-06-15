@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 726b175f0a87a41bbad88ca424aeed44, type: 3}
+  m_Name: AggressiveCreativeConfig
+  m_EditorClassIdentifier: Assembly-CSharp::SpaceFlight2D.Game.Config.PrototypeGameConfig
+  <Launch>k__BackingField:
+    SequenceDuration: 1.85
+    RocketCruiseY: -0.2
+    EnvironmentDropDistance: 10.2
+    StageDetachDelay: 0.7
+    StageDetachFallDistance: 4.4
+    StageDetachFadeDelay: 0.15
+  <Flight>k__BackingField:
+    HorizontalAcceleration: 28
+    MaxHorizontalSpeed: 6.2
+    InertiaDamping: 1.25
+    RotationResponsiveness: 11
+    BoundsPadding: 0.55
+    SpaceScrollSpeed: 3.2
+    StarScrollMultiplier: 1.8
+  <Asteroids>k__BackingField:
+    MinSpawnDelay: 0.35
+    MaxSpawnDelay: 0.7
+    SpawnXRange: {x: -3.2, y: 3.2}
+    SpawnY: 6.8
+    DespawnY: -7.4
+    FallSpeedRange: {x: 4.2, y: 6.4}
+    DriftRange: {x: -1.15, y: 1.15}
+    SizeRange: {x: 0.6, y: 1.35}
+    TargetScaleRange: {x: 1.5, y: 1.9}
+    ScorePerHit: 25
+  <Score>k__BackingField:
+    ScorePerSecond: 10
+    SelfDestructBonus: 10
+  <Presentation>k__BackingField:
+    ShowUi: 1
+    EnableVfx: 1
+    EnableScreenShake: 1
+    EnableTrail: 1
+    EnableStageDetach: 1
+    CameraColor: {r: 0.98, g: 0.59, b: 0.23, a: 1}
+    SkyColor: {r: 0.89, g: 0.36, b: 0.18, a: 1}
+    GroundColor: {r: 0.22, g: 0.12, b: 0.08, a: 1}
+    PlatformColor: {r: 0.99, g: 0.82, b: 0.46, a: 1}
+    SpaceColor: {r: 0.08, g: 0.01, b: 0.05, a: 1}
+    NebulaColor: {r: 0.38, g: 0.05, b: 0.2, a: 0.84}
+    StarColor: {r: 1, g: 0.88, b: 0.66, a: 1}
+    RocketColor: {r: 0.83, g: 1, b: 0.97, a: 1}
+    BoosterColor: {r: 1, g: 0.44, b: 0.18, a: 1}
+    TrailStartColor: {r: 1, g: 0.92, b: 0.32, a: 1}
+    TrailEndColor: {r: 1, g: 0.14, b: 0.12, a: 0}
+    LaunchSmokeColor: {r: 0.96, g: 0.78, b: 0.48, a: 0.72}
+    AsteroidColor: {r: 0.9, g: 0.65, b: 0.42, a: 1}
+    HitColor: {r: 1, g: 0.18, b: 0.12, a: 1}
+    ShakeDuration: 0.28
+    ShakeStrength: 0.28
+    TrailTime: 0.7
+    StarCount: 56
